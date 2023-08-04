@@ -46,7 +46,6 @@ const DashboardComponent = () => {
           setDeliveryData(res);
         },
         (error) => {
-          console.log("error: ", error);
           fetchDeliveryDetailsFailure(error);
         }
       );
@@ -71,7 +70,6 @@ const DashboardComponent = () => {
           setTotalRevenue(res[0]?.totalRevenue);
           dispatch(fetchTotalRevenueSuccess(totalRevenue));
         }, error => {
-          console.log("error: ", error);
           dispatch(fetchTotalRevenueFailure(error));
         }
       );
@@ -79,7 +77,7 @@ const DashboardComponent = () => {
     fetchDeliveryDetails();
     fetchOrders();
     fetchTotalRevenue();
-  }, [dispatch, totalRevenue]);
+  }, [dispatch]);
 
   return (
     <div className="content-wrapper">

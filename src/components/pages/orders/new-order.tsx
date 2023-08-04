@@ -40,7 +40,6 @@ export const NewOrderComponent = () => {
       },
       (error) => {
         dispatch(addOrderFailure(error));
-        console.log("error: ", error);
       }
     );
   }
