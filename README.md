@@ -1,3 +1,15 @@
+## Application Pages
+**Dashboard Panel:** Allows User to create orders and view statistics for both delivered and in progress orders.
+
+![Dahsboard](https://github.com/Hamza01541/React-Order-Management/assets/49500814/cc587133-f1f4-49f2-ab7c-f89dff9f2935)
+
+**Create Order Form:**
+Validates required fields and create a new order.
+![Create order form](https://github.com/Hamza01541/React-Order-Management/assets/49500814/26fbe309-5e9e-42ac-84a3-a9cda1f4cb30)
+
+**Order List:**  Allows User to track orders.
+![Order List](https://github.com/Hamza01541/React-Order-Management/assets/49500814/3b504ad2-b9f2-4c18-bf7f-18c19bb66b8f)
+
 # Tool & Technologies
 This project was bult using following tools and technologies:
 - React
@@ -12,18 +24,6 @@ This project was bult using following tools and technologies:
 - Leaflet Maps
 - React-circular-progressbar
 - Jest
-
-## App images
-**Dashboard Panel which allows User to create orders and view statistics for both delivered and orders in progress:**
-
-![Dahsboard](https://github.com/Hamza01541/React-Order-Management/assets/49500814/cc587133-f1f4-49f2-ab7c-f89dff9f2935)
-
-**Create Order Form:**
-
-![Create order form](https://github.com/Hamza01541/React-Order-Management/assets/49500814/26fbe309-5e9e-42ac-84a3-a9cda1f4cb30)
-
-**Order List:**
-![Order List](https://github.com/Hamza01541/React-Order-Management/assets/49500814/3b504ad2-b9f2-4c18-bf7f-18c19bb66b8f)
 
 ## Available Scripts
 
