@@ -1,0 +1,117 @@
+.content-wrapper {
+  padding: 25px 0;
+}
+
+.row {
+  display: flex;
+}
+
+/* image container */
+
+.content-wrapper .img-wrapper {
+  background-image: url('../../../assets/images/truck-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 30px 30px;
+  height: auto;
+  width: 100%;
+  border-radius: 9px;
+  margin-right: 50px;
+}
+
+.content-wrapper .img-wrapper h1 {
+  font-family: Poppins;
+  font-size: 32px;
+  max-width: 368px;
+  font-weight: 500;
+  line-height: 48px;
+  color: #FFFFFF;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.content-wrapper .img-wrapper button {
+  font-family: Poppins;
+  background: #FF5E69;
+  border: 1px solid #FF5E69;
+  width: 173px;
+  height: 54px;
+  color: #FFFFFF;
+  border-radius: 9px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+/* overview detail */
+
+.content-wrapper .overview-detail {
+  margin: 25px 0;
+}
+
+.content-wrapper .overview-detail span {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #383838;
+}
+
+.map-title {
+  margin: 10px 0;
+}
+
+.map-container {
+  width: 98%;
+  height: 400px;
+}
+
+.chart-conatiner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chart-conatiner .bar-chart {
+  border-radius: 10px;
+  border: 1px solid #E5E5E5;
+  padding: 20px;
+  margin: 20px 0;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #E7F0FB;
+}
+
+.chart-conatiner .pie-chart {
+  width: 120px;
+  margin-left: 38px;
+  margin-top: 35px;
+}
+
+.chart-conatiner .reports-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.report {
+  flex: auto;
+}
+
+.pie-card {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 173px;
+  height: 238px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  border: 0.50px rgba(0, 0, 0, 0.18) solid;
+  border-radius: 20px;
+  padding: 20px;
+}

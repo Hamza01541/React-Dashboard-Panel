@@ -1,0 +1,226 @@
+.orders-btn-wrapper button {
+    border: 1px solid #D9D9D9;
+    padding: 7px 50px;
+}
+
+.orders-btn-wrapper button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.orders-btn-wrapper button.create-order-btn {
+    background: #6F83BC;
+    border-color: #6F83BC;
+    color: #FFFFFF;
+}
+
+.orders-btn-wrapper button.create-order-btn.disabled {
+    background: #D9D9D9;
+    color: #FFFFFF;
+}
+
+/* New Order */
+.new-order-card {
+    margin-top: 15px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.new-order-card .form-control {
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+.new-order-card .form-control::placeholder {
+    color: #6F83BC;
+    font-size: 14px;
+}
+
+.new-order-card .form-select {
+    background: #EFF2F6;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+.new-order-card .form-select option {
+    color: #6F83BC;
+    font-size: 14px;
+}
+
+.new-order-card .form-select::placeholder {
+    color: #6F83BC;
+    font-size: 14px;
+}
+
+.order-information-title {
+    border-bottom: 3px solid #6F83BC;
+    padding-bottom: 3px;
+    color: #6F83BC;
+}
+
+/* custom scroll bar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #F2F2F2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #BCBCBC;
+    border-radius: 38px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
+/* custom scroll bar ends here*/
+
+.orders-container {
+    margin: 15px 0;
+}
+
+.orders-container .left-sidebar {
+    width: 283px;
+    /* overflow: auto; */
+    padding: 12px;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+.orders-list {
+    height: calc(100vh - 275px);
+    overflow: auto;
+}
+
+.footer {
+    border-top: 3px solid #DCDCDC;
+}
+
+.footer-title {
+    color: #A0A0A0;
+    margin-top: 20px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.orders-container .left-sidebar .head {
+    color: #505050;
+    border-bottom: 1px solid #DCDCDC;
+    padding: 5px 0;
+}
+
+.orders-container .left-sidebar .head .title {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.orders-container .order-detail {
+    padding: 20px 0;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.orders-container .order-detail .order-id {
+    display: block;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A0A0A0;
+}
+
+.orders-container .order-detail .id-num {
+    display: block;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.orders-container .order-detail .sub-detail {
+    position: relative;
+    padding: 13px 0;
+}
+
+.orders-container .sub-detail:last-child {
+    padding-bottom: 0;
+}
+
+.orders-container .sub-detail .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 29px;
+    height: 29px;
+    background: #E5E5E5;
+    border-radius: 50px;
+}
+
+.orders-container .sub-detail .icon img {
+    width: 11px;
+    height: 11px;
+}
+
+.orders-container .sub-detail .icon.from::after {
+    content: "";
+    display: block;
+    height: 50px;
+    width: 1px;
+    position: absolute;
+    top: 35px;
+    z-index: 9;
+    background: #E5E5E5;
+}
+
+.orders-container .sub-detail .address-detail {
+    padding: 0 10px;
+}
+
+.orders-container .address-detail .orign {
+    display: block;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A5A5A5;
+}
+
+.orders-container .address-detail .address {
+    display: block;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+/* map */
+.orders-container .map {
+    margin-left: 43px;
+    border-radius: 10px;
+    flex-grow: 1;
+    height: calc(100vh - 175px);
+}

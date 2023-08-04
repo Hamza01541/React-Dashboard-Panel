@@ -1,0 +1,8 @@
+.highcharts-background, .highcharts-credits{
+display: none !important;
+}
+
+text.CircularProgressbar-text{
+    text-anchor: middle;
+    align-self: center;
+}
