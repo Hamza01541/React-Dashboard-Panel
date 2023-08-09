@@ -30,7 +30,7 @@ const SidebarComponent = () => {
       </div>
       <div className="menuItems">
         {menuItems.map((item) => (
-          <img
+          <img title={item.title}
             key={item.title}
             src={item.icon}
             alt="icon"
