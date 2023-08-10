@@ -1,14 +1,14 @@
 ## Application Pages
 **Dashboard Panel:** Allows User to create orders and view statistics for both delivered and in progress orders.
-
-![Dahsboard](https://github.com/Hamza01541/React-Order-Management/assets/49500814/cc587133-f1f4-49f2-ab7c-f89dff9f2935)
+![image](https://github.com/Hamza01541/React-Order-Dashboard/assets/49500814/1f8083c7-f805-4c3c-b1f8-1da4bce6af8d)
 
 **Create Order Form:**
 Validates required fields and create a new order.
 ![Create order form](https://github.com/Hamza01541/React-Order-Management/assets/49500814/26fbe309-5e9e-42ac-84a3-a9cda1f4cb30)
 
 **Order List:**  Allows User to track orders.
-![Order List](https://github.com/Hamza01541/React-Order-Management/assets/49500814/3b504ad2-b9f2-4c18-bf7f-18c19bb66b8f)
+![image](https://github.com/Hamza01541/React-Order-Dashboard/assets/49500814/b3fed443-bdc1-4e73-874f-4192c3ebc357)
+
 
 # Tool & Technologies
 This project was bult using following tools and technologies:
