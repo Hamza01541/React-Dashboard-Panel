@@ -45,7 +45,7 @@ export const OrdersComponent = () => {
               return (
                 <div className="order-detail" key={index}>
                   <span className="order-id">Order ID</span>
-                  <span className="id-num">{order._id}</span>
+                  <span className="id-num">KH{order._id}</span>
 
                   {/* from address */}
                   <div className="sub-detail d-flex align-items-center">
@@ -55,7 +55,8 @@ export const OrdersComponent = () => {
                     <div className="address-detail">
                       <span className="orign">From</span>
                       <span className="address">
-                        {order?.businessInformation}
+                        {/* {order?.businessInformation} */}
+                        Dr Soetomo, jember
                       </span>
                     </div>
                   </div>
