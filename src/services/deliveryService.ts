@@ -7,7 +7,7 @@ const deliveryService = {
      * @returns 
      */
     getDeliveryDetails: async () => {
-        const url = `${API_BASE_URL}/delivery-details`;
+        const url = `${API_BASE_URL}/orders/delivery-details`;
         const response = await axios.get<any>(url);
         return response.data;
     },

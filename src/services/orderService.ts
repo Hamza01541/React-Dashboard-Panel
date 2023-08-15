@@ -9,7 +9,8 @@ const orderService = {
      * @returns 
      */
     getOrders: async () => {
-        const response = await axios.get<OrderI[]>(API_BASE_URL);
+        const url = `${API_BASE_URL}/orders`;
+        const response = await axios.get<OrderI[]>(url);
         return response.data;
     },
 
@@ -19,7 +20,8 @@ const orderService = {
      * @returns 
      */
     createOrder: async (order: OrderI) => {
-        const response = await axios.post(API_BASE_URL, order);
+        const url = `${API_BASE_URL}/orders`;
+        const response = await axios.post(url, order);
         return response.data;
     },
 
@@ -28,7 +30,8 @@ const orderService = {
      * @returns 
      */
     fetchTotalRevenue: async () => {
-        const response = await axios.get<any>(`${API_BASE_URL}/total-revenue`);
+        const url = `${API_BASE_URL}/orders/total-revenue`;
+        const response = await axios.get<any>();
         return response.data;
     }
 };
